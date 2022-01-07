@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/footer/footer'
 
 import styles from '@/pages/index.module.css'
 
-export default function Home() {
+export default function HomeBis() {
   return (
     <div className={styles.container}>
       <Head>
@@ -60,6 +61,7 @@ export default function Home() {
           </span>
         </a>
       </footer>
+      <Footer/>
     </div>
   )
 }
